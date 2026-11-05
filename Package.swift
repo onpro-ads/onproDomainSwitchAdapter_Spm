@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "SmartdigimktDomainSwitchAdapter",
             url: "https://sz-kuying-sdk.oss-accelerate.aliyuncs.com/pkgs/SDK/iOS/DomainSwitch/v6.0.0/SmartdigimktDomainSwitchAdapter.zip",
-            checksum: "7791d24ff0960b320877570bbb59f40eec0a86123cdbc8d5ce6ffa754a123e0e"
+            checksum: "373673666e4ae59e7e02e95541b40390110ef9706762b802ae78ef23e4bcedc9"
         ),
         // 包装 target：同时依赖 Adapter 的 binary 和 SDK 的 product
         .target(
