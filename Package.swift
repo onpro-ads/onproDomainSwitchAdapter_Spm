@@ -15,14 +15,14 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/onpro-ads/onproSDK_Spm.git", "6.0.1"..."999.0.0"
+            url: "https://github.com/onpro-ads/onproSDK_Spm.git", "6.5.86"..."999.0.0"
         )
     ],
     targets: [
         .binaryTarget(
             name: "SmartdigimktDomainSwitchAdapter",
-            url: "https://sz-kuying-sdk.oss-accelerate.aliyuncs.com/pkgs/SDK/iOS/DomainSwitch/v6.0.1/SmartdigimktDomainSwitchAdapter.zip",
-            checksum: "da78b78f6592fc728ceccad0bf59034522a293363997f0e5c2b509fe27904217"
+            url: "https://sz-kuying-sdk.oss-accelerate.aliyuncs.com/pkgs/SDK/iOS/DomainSwitch/v6.5.86/SmartdigimktDomainSwitchAdapter.zip",
+            checksum: "e434722b58d2e6d1016746d8a6547f1ebcea85cfb8dba51def5fa33234df87f5"
         ),
         // 包装 target：同时依赖 Adapter 的 binary 和 SDK 的 product
         .target(
